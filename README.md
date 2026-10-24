@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gocotano Gene C. — Student Portfolio
 
 This starter portfolio is split into separate pages:
@@ -17,3 +18,7 @@ Personalize your introduction, About details, skills, project role/findings, ref
 
 ## GitHub Pages
 Upload the contents of this folder to the root of a public repository. Ensure `index.html` is in the repository root. In repository Settings → Pages, choose deployment from branch `main` and folder `/(root)`. After deployment, test the public HTTPS link and all five pages.
+=======
+# genesour-portfolio
+Personal portfolio website for BSIT student Gene.
+>>>>>>> dee2e24c2160956879ba4851387a01379d689c50
