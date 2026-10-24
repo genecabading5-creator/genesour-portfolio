@@ -19,4 +19,4 @@ This portfolio contains the following pages:
 
 ## GitHub Repository
 
-https://github.com/genecabading5-creator/genesour-portfoliogit add README.md
+https://github.com/genecabading5-creator/genesour-portfolio
