@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sky Diary | Genesour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="sky-page">
+
+    <header class="sky-header">
+        <a href="index.html" class="sky-brand">GENESOUR.</a>
+        <a href="index.html" class="sky-back">↖ Back to Home</a>
+    </header>
+
+    <main class="sky-main">
+
+        <section class="sky-intro">
+            <p class="sky-label">A PERSONAL PHOTO DIARY</p>
+
+            <h1>A piece of<br>the <span>sky.</span></h1>
+
+            <p class="sky-description">
+                Little moments, endless skies.
+                A collection of skies I captured and moments
+                I wanted to keep.
+            </p>
+        </section>
+
+        <section class="sky-gallery-section">
+            <div class="sky-section-heading">
+                <div>
+                    <p class="sky-label">MY COLLECTION</p>
+                    <h2>Through my skies</h2>
+                </div>
+                <span class="sky-count">PHOTO DIARY</span>
+            </div>
+
+            <div class="sky-gallery">
+
+                <!-- PHOTO 1 -->
+
+                <figure class="sky-photo">
+                    <button class="sky-photo-button" type="button" data-full="assets/sky1.jpg"
+                        data-alt="Sky photo showing a peaceful moment" aria-label="View sky photo one larger">
+                        <img src="assets/sky1.jpg" alt="A view of the sky captured during a quiet moment"
+                            loading="lazy">
+                        <span class="sky-photo-hint">VIEW PHOTO ↗</span>
+                    </button>
+
+                    <figcaption>
+                        <h3>Little moments</h3>
+                        <p>“Not every day has to be extraordinary to be beautiful.”</p>
+                    </figcaption>
+                </figure>
+
+
+                <!-- PHOTO 2 -->
+                <figure class="sky-photo">
+                    <button class="sky-photo-button" type="button" data-full="assets/sky2.jpg"
+                        data-alt="Sky photo showing a peaceful moment" aria-label="View sky photo one larger">
+                        <img src="assets/sky2.jpg" alt="A view of the sky captured during a quiet moment"
+                            loading="lazy">
+                        <span class="sky-photo-hint">VIEW PHOTO ↗</span>
+                    </button>
+
+                    <figcaption>
+                        <h3>Little moments</h3>
+                        <p>“Some endings are simply the sky teaching us how to let go.”</p>
+                    </figcaption>
+                </figure>
+
+                <!-- PHOTO 3 -->
+                <figure class="sky-photo">
+                    <button class="sky-photo-button" type="button" data-full="assets/sky3.jpg"
+                        data-alt="Sky photo showing a peaceful moment" aria-label="View sky photo one larger">
+                        <img src="assets/sky3.jpg" alt="A view of the sky captured during a quiet moment"
+                            loading="lazy">
+                        <span class="sky-photo-hint">VIEW PHOTO ↗</span>
+                    </button>
+
+                    <figcaption>
+                        <h3>Little moments</h3>
+                        <p>“Even when the light is hidden, it has not disappeared.”</p>
+                    </figcaption>
+                </figure>
+
+                <!-- PHOTO 4 -->
+                <figure class="sky-photo">
+                    <button class="sky-photo-button" type="button" data-full="assets/sky4.jpg"
+                        data-alt="Sky photo showing a peaceful moment" aria-label="View sky photo one larger">
+                        <img src="assets/sky4.jpg" alt="A view of the sky captured during a quiet moment"
+                            loading="lazy">
+                        <span class="sky-photo-hint">VIEW PHOTO ↗</span>
+                    </button>
+
+                    <figcaption>
+                        <h3>Little moments</h3>
+                        <p>“The world can wait a little while; let yourself breathe.”</p>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <footer class="sky-footer">
+            <p>GENESOUR · A LITTLE PIECE OF MY WORLD</p>
+            <a href="index.html">Back to my world ↗</a>
+        </footer>
+
+    </main>
+
+
+    <!-- Sky photo lightbox -->
+    <dialog class="sky-lightbox" id="skyLightbox">
+        <div class="sky-lightbox-content">
+            <button class="sky-lightbox-close" id="closeSkyLightbox" type="button" aria-label="Close photo">×</button>
+
+            <img id="lightboxImage" src="" alt="">
+            <p id="lightboxCaption"></p>
+        </div>
+    </dialog>
+
+    <script src="sky-gallery.js"></script>
+</body>
+
+</html>
